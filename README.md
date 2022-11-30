@@ -1,4 +1,4 @@
-# Cifar10 FedAvg and FedSGD with SMC
+# Cifar10 FedAvg and FedSGD with Secure Multiparty Computation (SMC)
 
 N parties hold n subsets of the Cifar10 training dataset. After each few epochs of local training, they calculate the average of their local weights to use for the next training round. SMC protocol used is Shamir's Secret Sharing. 
 
